@@ -12,6 +12,8 @@
 		78D2F7321B91271E00B2BE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D2F7301B91271E00B2BE85 /* Main.storyboard */; };
 		78D2F7341B91271E00B2BE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D2F7331B91271E00B2BE85 /* Assets.xcassets */; };
 		78D2F7371B91271E00B2BE85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D2F7351B91271E00B2BE85 /* LaunchScreen.storyboard */; };
+		78D2F7401B91276900B2BE85 /* UIBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D2F73E1B91276900B2BE85 /* UIBadge.swift */; settings = {ASSET_TAGS = (); }; };
+		78D2F7411B91276900B2BE85 /* UIBadgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D2F73F1B91276900B2BE85 /* UIBadgeLabel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		78D2F7331B91271E00B2BE85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78D2F7361B91271E00B2BE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78D2F7381B91271E00B2BE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D2F73E1B91276900B2BE85 /* UIBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBadge.swift; sourceTree = "<group>"; };
+		78D2F73F1B91276900B2BE85 /* UIBadgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBadgeLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		78D2F72B1B91271E00B2BE85 /* UIBadge */ = {
 			isa = PBXGroup;
 			children = (
+				78D2F73E1B91276900B2BE85 /* UIBadge.swift */,
+				78D2F73F1B91276900B2BE85 /* UIBadgeLabel.swift */,
 				78D2F72C1B91271E00B2BE85 /* AppDelegate.swift */,
 				78D2F72E1B91271E00B2BE85 /* ViewController.swift */,
 				78D2F7301B91271E00B2BE85 /* Main.storyboard */,
@@ -136,6 +142,8 @@
 			files = (
 				78D2F72F1B91271E00B2BE85 /* ViewController.swift in Sources */,
 				78D2F72D1B91271E00B2BE85 /* AppDelegate.swift in Sources */,
+				78D2F7411B91276900B2BE85 /* UIBadgeLabel.swift in Sources */,
+				78D2F7401B91276900B2BE85 /* UIBadge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
