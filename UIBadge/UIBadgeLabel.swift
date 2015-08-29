@@ -1,14 +1,8 @@
-//
-//  UIBadgeLabel.swift
-//  RefManOne
-//
-//  Created by Ryan Lovelett on 6/29/15.
-//  Copyright © 2015 SAIC. All rights reserved.
-//
-
 import UIKit
 
-@IBDesignable class UIBadgeLabel: UILabel {
+/// This is really just a UILabel with some special defaults preconfigured.
+@IBDesignable
+class UIBadgeLabel: UILabel {
 
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
@@ -21,6 +15,7 @@ import UIKit
   }
 
   private final func settings() {
+    numberOfLines = 0
     opaque = false
     userInteractionEnabled = false
     contentMode = .Left
@@ -31,7 +26,6 @@ import UIKit
     adjustsFontSizeToFitWidth = false
     translatesAutoresizingMaskIntoConstraints = false
     font = UIFont.systemFontOfSize(UIFont.smallSystemFontSize())
-    textColor = UIColor.whiteColor()
   }
 
 }
