@@ -58,14 +58,14 @@
 		78D2F72B1B91271E00B2BE85 /* UIBadge */ = {
 			isa = PBXGroup;
 			children = (
+				78D2F72C1B91271E00B2BE85 /* AppDelegate.swift */,
+				78D2F7331B91271E00B2BE85 /* Assets.xcassets */,
+				78D2F7381B91271E00B2BE85 /* Info.plist */,
+				78D2F7351B91271E00B2BE85 /* LaunchScreen.storyboard */,
+				78D2F7301B91271E00B2BE85 /* Main.storyboard */,
 				78D2F73E1B91276900B2BE85 /* UIBadge.swift */,
 				78D2F73F1B91276900B2BE85 /* UIBadgeLabel.swift */,
-				78D2F72C1B91271E00B2BE85 /* AppDelegate.swift */,
 				78D2F72E1B91271E00B2BE85 /* ViewController.swift */,
-				78D2F7301B91271E00B2BE85 /* Main.storyboard */,
-				78D2F7331B91271E00B2BE85 /* Assets.xcassets */,
-				78D2F7351B91271E00B2BE85 /* LaunchScreen.storyboard */,
-				78D2F7381B91271E00B2BE85 /* Info.plist */,
 			);
 			path = UIBadge;
 			sourceTree = "<group>";
@@ -293,6 +293,7 @@
 				78D2F73D1B91271E00B2BE85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
