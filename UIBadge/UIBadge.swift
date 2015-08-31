@@ -200,6 +200,17 @@ extension UIBadge {
   override func prepareForInterfaceBuilder() {
     super.prepareForInterfaceBuilder()
     configureView()
+
+    // Hack to work around in (Interface Builder) Version 7.0 beta 6 (7A192o):
+    // Illegal Configuration: Interface Builder does not support UIView sizes larger than 10,000 by 10,000
+    if label.text == nil {
+      label.text = "!"
+      moreWidth.constant = CGFloat(padding)
+      makeSquare.constant = CGFloat(padding)
+
+      invalidateIntrinsicContentSize()
+      setNeedsUpdateConstraints()
+    }
   }
 
   private final func configureView() {
